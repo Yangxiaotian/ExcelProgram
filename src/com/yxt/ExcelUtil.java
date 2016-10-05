@@ -120,7 +120,6 @@ public class ExcelUtil {
 					cellContent = sdf.format(date);
 				}else {
 					cellContent = cell.getNumericCellValue()+"";
-					if(cellContent.equals("36647.0")) System.out.println(cell.getCellStyle().getDataFormat());
 				}
 				break;
 			case Cell.CELL_TYPE_STRING: cellContent = cell.getStringCellValue();break;
