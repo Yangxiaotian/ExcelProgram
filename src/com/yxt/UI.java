@@ -24,7 +24,7 @@ public class UI implements ActionListener{
 		panel.add(fileChooser);
 		panel.add(button);
 		frame.add(panel);
-		frame.setSize(500, 500);
+		frame.setSize(520, 500);
 		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
 	}
